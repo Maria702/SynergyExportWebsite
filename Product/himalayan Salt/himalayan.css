@@ -1,0 +1,9 @@
+.display{
+    color: #2FA19E;
+}
+
+p{
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-top: 5px;
+}

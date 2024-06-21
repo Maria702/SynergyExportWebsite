@@ -9,13 +9,20 @@ h5{
     font-weight: bold;
     text-transform: uppercase
 }
+h5:hover{
+    color: #2FA19E;
+}
+p{
+    text-align: start;
+}
 .fa{
-    color: #7FC1B9;
+    
+    color: #2FA19E;
     font-size: 20px;
 }
-.fa:hover{
+.fa:hover{ 
     transition: 0.5s ease;
-    transform: scale(1.7);
+    transform: scale(1.5);
     cursor: pointer;
     color: #2FA19E;
 }

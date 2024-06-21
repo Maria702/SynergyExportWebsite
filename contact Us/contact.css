@@ -1,12 +1,4 @@
-.myForm label input{
-    border: none;
-    outline: none;
-    background: transparent;
-    border-bottom: 1px solid #2FA19E;
-    padding: 15px;
-    margin-bottom: 10px;
-  
-}
+
 h3{
     color: #2FA19E;
     font-weight: bold;
@@ -30,42 +22,4 @@ h5{
 .contact_box{
     border-radius: 15px 15px 15px 15px ;
     background-color: rgb(238, 241, 240);
-}
-
-::-webkit-input-placeholder{
-    color:#7FC1B9
-}
-/* ::-moz-placeholder{
-    color: blue;
-} */
-
-:-ms-input-placeholder{
-    color: blueviolet;
-}
-
-/* .myForm label input:hover{
-    
-
-} */
-
-.text{
-    text-align: justify;
-}
-.submitBtn{
-    border-radius: 50px 50px;
-    background-color: #2FA19E;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    outline: none;
-    border: none;
-    font-size: 20px;
-    padding: 10px 40px 10px 40px;
-}
-.submitBtn:focus{
-    outline: none;
-}
-.submitBtn:hover{
-    color: #ffffff;
-    background-color: #7FC1B9;
 }

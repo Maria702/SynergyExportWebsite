@@ -36,6 +36,7 @@ h3{
     text-align: justify;
 }
 .submitBtn{
+    color: white;
     border-radius: 50px 50px;
     background-color: #2FA19E;
     justify-content: center;
@@ -50,6 +51,5 @@ h3{
     outline: none;
 }
 .submitBtn:hover{
-    color: #ffffff;
     background-color: #7FC1B9;
 }

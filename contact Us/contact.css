@@ -3,7 +3,7 @@
     outline: none;
     background: transparent;
     border-bottom: 1px solid #2FA19E;
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 10px;
   
 }
@@ -47,3 +47,25 @@ h5{
     
 
 } */
+
+.text{
+    text-align: justify;
+}
+.submitBtn{
+    border-radius: 50px 50px;
+    background-color: #2FA19E;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 10px 40px 10px 40px;
+}
+.submitBtn:focus{
+    outline: none;
+}
+.submitBtn:hover{
+    color: #ffffff;
+    background-color: #7FC1B9;
+}

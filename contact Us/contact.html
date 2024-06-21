@@ -16,21 +16,23 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./../style.css">
     <link rel="stylesheet" href="contact.css">
+
     <title>Contact Us</title>
 </head>
 
 
 
 <body>
-      <!-- _____________________________ scroll -->
-      <div class="scroll container-fluid bg-light pt-4">
+    <!-- _____________________________ scroll -->
+    <div class="scroll container-fluid bg-light pt-4">
         <div class="row">
             <div class="col-md-12">
                 <marquee behavior="scroll" direction="left" scrollamount="10">
                     <i class="fa fa-phone"> 021-34542586-87 </i>
                     <i class="fa fa-mobile"> +92330-2637568</i>
                     <i class="fa fa-envelope"> info@synergyexports.biz</i>
-                    <i class="fa fa-map-marker"> Office No. 505 , 5th Floor, Ibrahim Trade Tower, M.C.H.S.,Sharah-e-Faisal, Karachi-Pakistan.</i>
+                    <i class="fa fa-map-marker"> Office No. 505 , 5th Floor, Ibrahim Trade Tower,
+                        M.C.H.S.,Sharah-e-Faisal, Karachi-Pakistan.</i>
                 </marquee>
 
             </div>
@@ -103,7 +105,7 @@
 
                     </div>
                 </div>
-                <div class="row">
+                <div class="row pt-2">
                     <div class="col=-md-4">
                         <i class="fa fa-map-marker"></i>
                     </div>
@@ -141,20 +143,28 @@
             <div class=" form_box col-md-6 p-5">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3>  Get In Touch</h3>
+                        <h3> Get In Touch</h3>
+                        
+                    </div>
+                    <div class="col-md-12">
+                        <p class="text">
+                            We’re happy to answer any questions you have or provide you with an estimate. Just send us a message in the form below with any questions you may have.
+                        </p>
                         <form class="myForm" action="#">
                             <label>Full Name
                                 <input type="text" name="name" placeholder="Name" id="">
                             </label>
                             <label>Email Address
-                                <input type="email" name="email" placeholder="Email" id="">
+                                <input type="email" name="email" placeholder="Email" required id="">
                             </label>
-                            <label>Subject 
+                            <label>Subject
                                 <input type="text" name="subject" placeholder="Subject" id="">
                             </label>
-                            <label>Message 
+                            <label>Message
                                 <input type="message" name="message" placeholder="Message" id="">
                             </label>
+                            <br>
+                            <button class="submitBtn" onclick="clickMe()">Submit</button>
                         </form>
 
                     </div>
@@ -169,7 +179,7 @@
 
 
 
-
+    <script src="contact.js"></script>
     <!-- bootstrap cdn -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

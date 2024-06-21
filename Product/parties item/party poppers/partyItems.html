@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -14,36 +15,36 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="./inquiry.css">
 
-    <title>Contact Us</title>
+    <link rel="stylesheet" href="./../../../style.css">
+    <link rel="stylesheet" href="partyItems.css">
+
+    <title>Party's Item</title>
 </head>
 
-
-
 <body>
-    <!-- _____________________________ scroll -->
-    <div class="scroll container-fluid bg-light pt-4">
+      <!-- _____________________________ scroll -->
+      <div class="scroll container-fluid bg-light pt-4">
         <div class="row">
             <div class="col-md-12">
                 <marquee behavior="scroll" direction="left" scrollamount="10">
                     <i class="fa fa-phone"> 021-34542586-87 </i>
                     <i class="fa fa-mobile"> +92330-2637568</i>
                     <i class="fa fa-envelope"> info@synergyexports.biz</i>
-                    <i class="fa fa-map-marker"> Office No. 505 , 5th Floor, Ibrahim Trade Tower,
-                        M.C.H.S.,Sharah-e-Faisal, Karachi-Pakistan.</i>
+                    <i class="fa fa-map-marker"> Office No. 505 , 5th Floor, Ibrahim Trade Tower, M.C.H.S.,Sharah-e-Faisal, Karachi-Pakistan.</i>
                 </marquee>
 
             </div>
 
         </div>
     </div>
+
+
     <!-- ------------------- naV Bar -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-            <img class="bg-logo " src="./../Assets/synergyTrade.jpeg" alt="">
+            <img class="bg-logo " src="../../../Assets/synergyTrade.jpeg" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,11 +54,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-0 mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link " href="./../index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../../../index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-
                 <li class="nav-item">
-                    <a class="nav-link" href="./../about/about.html">About Us</a>
+                    <a class="nav-link" href="../../../about/about.html">About Us</a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -66,34 +66,31 @@
                         Product
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="./../Product/himalayan Salt/himalayan.html">Himalayan Salt</a>
+                        <a class="dropdown-item" href="./../../himalayan Salt/himalayan.html">Himalayan Salt</a>
                         <a class="nav-link dropdown-toggle pl-4" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Party’s Items</a>
                         <div class="dropdown-menu ml-5" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item"
-                                href="./../Product/parties item/birthday items/birthdayItems.html">Birthday
-                                Sparkling Candles</a>
+                                href="../birthday items/birthdayItems.html">Birthday Sparkling Candles</a>
                             <a class="dropdown-item"
-                                href="./../Product/parties item/party poppers/partyItems.html">Party Poppers</a>
+                                href="../party poppers/partyItems.html">Party Poppers</a>
                             </a>
                         </div>
                 </li>
+
+                
 
                 <li class="nav-item">
                     <a class="nav-link" href="#">Certifications</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="./inquiry.html">Inquiry</a>
+                    <a class="nav-link" href="./../../../inquiry/inquiry.html">Inquiry</a>
                 </li>
-
                 <li class="nav-item">
-                    <a class="nav-link" href="./../contact Us/contact.html">Contact Us</a>
+                    <a class="nav-link" href="./../../../contact Us/contact.html">Contact Us</a>
                 </li>
-
-
-
             </ul>
             <form class="form-inline my-1 my-lg-0">
                 <input class="form-control mr-sm-1" type="search" placeholder="Search" aria-label="Search">
@@ -102,44 +99,77 @@
         </div>
     </nav>
 
+    <!-- 
+     party items -->
+  
 
-    <div class="container-fluid d-flex justify-content-center">
-        <div class="row box p-5 ">
-            <div class="col-md-12 m-5">
-                <h3> Get In Touch</h3>
-                <p class="text pt-2 ">
-                    We’re happy to answer any questions you have or provide you with an estimate. <br>
-                    Just send us a message in the form below with any questions you may have.
-                </p>
-                <form class="myForm" action="#">
-                    <label>Full Name
-                        <input type="text" name="name" placeholder="Name" id="">
-                    </label> <br>
-                    <label>Email Address
-                        <input type="email" name="email" placeholder="Email" required id="">
-                    </label> <br>
-                    <label>Subject
-                        <input type="text" name="subject" placeholder="Subject" id="">
-                    </label> <br>
-                    <label>Message
-                        <input type="message" name="message" placeholder="Message" id="">
-                    </label>
-                    <br>
-                    <button class="submitBtn" onclick="clickMe()">Submit</button>
-                </form>
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center pt-5 font-weight-bold">
+                <h2 class="col-md-12 pt-3 text-center display  font-weight-bold">
+                   Party Poppers
+                </h2>
 
             </div>
 
         </div>
-
     </div>
+    <br>
+    <div class="container-fluid bg-light">
+
+        <div class="row pb-3">
+            <div class="col-md-3 justify-content-center ">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="featured_img rounded" src="../../../Assets/Party Poppers.png" alt="">
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <p class="featured_para">Party Poppers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 justify-content-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="featured_img rounded" src="../../../Assets/party popper 1.png" alt="">
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <p class="featured_para">Party Poppers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 justify-content-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="featured_img rounded" src="../../../Assets/multi popper.png" alt="">
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <p class="featured_para">Multi Color Party Poppers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 justify-content-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="featured_img rounded" src="../../../Assets/party popper 2.png" alt="">
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <p class="featured_para">Party Poppers</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div><br>
 
 
 
-    <!-- -------------Footer---------------->
-
-    <footer class="container-fluid bg-light">
-        <br>
+<hr>
+    <!-- ======================================= footer -->
+   <footer class="container-fluid bg-light">
+    <br>
         <div class="row pt-3 pl-5">
             <div class="col-md-12 pr-4">
                 <div class="row">
@@ -158,12 +188,12 @@
                     <div class="col-md-6">
                         <div class="row">
                             <div class="col-md-12 footer_menu font-weight-bold">
-                                <a href="./../about/about.html"> About US</a>
+                                <a href="../../../about/about.html"> About US</a>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12 footer_menu font-weight-bold">
-                                <a href="./../Product/himalayan Salt/himalayan.html"> Products</a>
+                                <a href="../../../Product/himalayan Salt/himalayan.html"> Products</a>
                             </div>
                         </div>
                         <div class="row">
@@ -173,7 +203,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 footer_menu font-weight-bold">
-                                <a href="./inquiry.html"> Inquiry</a>
+                                <a href="../../../inquiry/inquiry.html"> Inquiry</a>
                             </div>
                         </div>
 
@@ -195,7 +225,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <p class="last_para"> <i class="fa fa-mobile"></i> +92330-2637568</p>
+                                <p class="last_para"> <i class="fa fa-mobile"></i> 021-34542586-87</p>
                             </div>
                         </div>
                         <div class="row">
@@ -233,8 +263,6 @@
     </footer>
 
 
-
-    <script src="inquiry.js"></script>
     <!-- bootstrap cdn -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

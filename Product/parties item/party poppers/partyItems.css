@@ -1,0 +1,34 @@
+
+.color{
+  
+    color: black;
+    background-color: whitesmoke;
+}
+
+.party_box_container {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.party_img:hover{
+    cursor: pointer;
+    transform: scale(0.9); 
+}
+
+.item_box_btn{
+    border: 2px solid ;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    border:1px solid  #5FC3C6;
+
+
+}
+
+.item_box a:hover{
+    text-decoration: none;
+    border: none;
+   
+}

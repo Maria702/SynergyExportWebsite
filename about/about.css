@@ -10,12 +10,12 @@
 .mission {
     filter: blur(2px);
     -webkit-filter: blur(2px);
-    width: 80%;
+    width: 99%;
     border-radius: 20px;
 }
 
 p {
-    font-size: 22px;
+    font-size: 17px;
     line-height: 2;
 }
 
@@ -50,7 +50,6 @@ p {
 .image_effects:hover .image_hover {
     opacity: 1;
 }
-
 
 
 

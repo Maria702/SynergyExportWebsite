@@ -1,29 +1,30 @@
-h3{
+h3 {
     color: #2FA19E;
     font-weight: bold;
-    
+
 }
 
 
-.myForm label input{
+.myForm label input {
     border: none;
     outline: none;
     background: transparent;
     border-bottom: 1px solid #2FA19E;
     padding: 15px;
     margin-bottom: 10px;
-  
+
 }
 
 
-::-webkit-input-placeholder{
-    color:#7FC1B9
+::-webkit-input-placeholder {
+    color: #7FC1B9
 }
+
 /* ::-moz-placeholder{
     color: blue;
 } */
 
-:-ms-input-placeholder{
+:-ms-input-placeholder {
     color: blueviolet;
 }
 
@@ -32,10 +33,11 @@ h3{
 
 } */
 
-.text{
+.text {
     text-align: justify;
 }
-.submitBtn{
+
+.submitBtn {
     color: white;
     border-radius: 50px 50px;
     background-color: #2FA19E;
@@ -47,10 +49,119 @@ h3{
     font-size: 20px;
     padding: 10px 40px 10px 40px;
 }
-.submitBtn:focus{
+
+.submitBtn:focus {
     outline: none;
 }
-.submitBtn:hover{
+
+.submitBtn:hover {
     background-color: #7FC1B9;
 }
 
+
+h3 {
+    -webkit-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes bounceInLeft {
+
+    0%,
+    60%,
+    75%,
+    90%,
+    100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-3000px, 0, 0);
+        transform: translate3d(-3000px, 0, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(25px, 0, 0);
+        transform: translate3d(25px, 0, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(5px, 0, 0);
+        transform: translate3d(5px, 0, 0);
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes bounceInLeft {
+
+    0%,
+    60%,
+    75%,
+    90%,
+    100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-3000px, 0, 0);
+        transform: translate3d(-3000px, 0, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(25px, 0, 0);
+        transform: translate3d(25px, 0, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(5px, 0, 0);
+        transform: translate3d(5px, 0, 0);
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+
+/* text animation */
+
+.text {
+    color: transparent;
+    animation: effect 2s linear infinite;
+}
+
+@keyframes effect {
+    0% {
+        background: linear-gradient(#000000, #000000);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient( #2FA19E, #2FA19E);
+        -webkit-background-clip: text;
+    }
+}
